@@ -2,7 +2,8 @@
   "name": "rapidly",
   "version": "1.0.0",
   "description": "Turn PRDs into visual prototypes in minutes",
-  "license": "MIT",
+  "license": "SEE LICENSE IN README.md",
+  "author": "Dejan Krstic (https://www.linkedin.com/in/dejan-krstic-b4a7a98a/)",
   "private": true,
   "type": "module",
   "scripts": {

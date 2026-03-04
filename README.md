@@ -169,6 +169,10 @@ No database required. Runs persist across restarts.
 - **Mermaid** for architecture diagrams
 - **OpenAI SDK** (optional) for mock data enrichment
 
-## License
+## License & Copyright
 
-MIT
+Copyright (c) 2026 [Dejan Krstic](https://www.linkedin.com/in/dejan-krstic-b4a7a98a/). All rights reserved.
+
+This software is proprietary. Unauthorized copying, modification, distribution, or use of this software, in whole or in part, is strictly prohibited without prior written permission from the copyright holder.
+
+By cloning or downloading this repository, you acknowledge that all intellectual property rights belong to **Dejan Krstic** and that no license to use, modify, or redistribute this software is granted unless explicitly provided in writing.
