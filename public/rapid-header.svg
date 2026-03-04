@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Simplified high-contrast logo using primary teal (#00d4aa) -->
+  
+  <!-- Document (left) - solid white outline -->
+  <rect x="56" y="80" width="160" height="200" rx="12" fill="none" stroke="#ffffff" stroke-width="20"/>
+  <!-- Document lines - bright white -->
+  <rect x="88" y="120" width="96" height="16" rx="8" fill="#ffffff"/>
+  <rect x="88" y="156" width="80" height="16" rx="8" fill="#ffffff" opacity="0.7"/>
+  <rect x="88" y="192" width="96" height="16" rx="8" fill="#ffffff" opacity="0.5"/>
+  
+  <!-- Arrow/transformation indicator - primary teal -->
+  <path d="M240 180 L280 180 L260 160 M280 180 L260 200" stroke="#00d4aa" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Screen tiles (right) - primary teal -->
+  <rect x="296" y="80" width="160" height="88" rx="12" fill="#00d4aa"/>
+  <rect x="296" y="192" width="160" height="88" rx="12" fill="#00d4aa"/>
+  
+  <!-- Screen content indicators -->
+  <rect x="316" y="104" width="60" height="40" rx="6" fill="#000000" opacity="0.3"/>
+  <rect x="388" y="104" width="48" height="16" rx="4" fill="#000000" opacity="0.2"/>
+  <rect x="388" y="128" width="48" height="16" rx="4" fill="#000000" opacity="0.2"/>
+  
+  <rect x="316" y="216" width="120" height="20" rx="4" fill="#000000" opacity="0.3"/>
+  <rect x="316" y="244" width="48" height="16" rx="4" fill="#000000" opacity="0.2"/>
+  <rect x="376" y="244" width="48" height="16" rx="4" fill="#000000" opacity="0.2"/>
+  
+  <!-- Lightning bolt accent - primary teal -->
+  <path d="M220 340 L256 340 L240 380 L300 340 L264 340 L280 300 Z" fill="#00d4aa"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Compact monochrome version for very small surfaces -->
+  
+  <!-- Document (simplified) -->
+  <rect x="64" y="96" width="160" height="200" rx="16" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="16"/>
+  <!-- Document lines -->
+  <rect x="96" y="144" width="96" height="12" rx="6" fill="currentColor" fill-opacity="0.5"/>
+  <rect x="96" y="176" width="80" height="12" rx="6" fill="currentColor" fill-opacity="0.5"/>
+  <rect x="96" y="208" width="96" height="12" rx="6" fill="currentColor" fill-opacity="0.5"/>
+  
+  <!-- Screen tiles (stacked, simplified) -->
+  <rect x="288" y="96" width="160" height="88" rx="12" fill="currentColor"/>
+  <rect x="288" y="208" width="160" height="88" rx="12" fill="currentColor"/>
+  
+  <!-- Central lightning bolt -->
+  <path d="M268 176 L228 264 L256 264 L236 352 L316 240 L280 240 L308 176 Z" 
+        fill="currentColor"/>
+  
+  <!-- Speed lines -->
+  <g stroke="currentColor" stroke-width="8" stroke-linecap="round" opacity="0.4">
+    <line x1="128" y1="360" x2="192" y2="360"/>
+    <line x1="144" y1="392" x2="224" y2="392"/>
+    <line x1="112" y1="424" x2="208" y2="424"/>
+  </g>
+</svg>
+

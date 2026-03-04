@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UI Blueprint",
+  "description": "Structured model for prototype screens, regions, components, and interactions",
+  "type": "object",
+  "required": ["screens"],
+  "properties": {
+    "appName": { "type": "string", "description": "Application name for title and header" },
+    "screens": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "route"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "route": { "type": "string" },
+          "layout": { "type": "string", "enum": ["default"] },
+          "regions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": { "type": "string" },
+                "layout": { "type": "string" },
+                "children": { "type": "array" }
+              }
+            }
+          },
+          "components": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "type"],
+              "properties": {
+                "id": { "type": "string" },
+                "type": { "type": "string" },
+                "props": { "type": "object" },
+                "children": { "type": "array" }
+              }
+            }
+          },
+          "tabs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": { "type": "string" },
+                "label": { "type": "string" },
+                "content": { "type": "object" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "interactions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "targetComponentId", "event", "actionType"],
+        "properties": {
+          "id": { "type": "string" },
+          "targetComponentId": { "type": "string" },
+          "event": { "type": "string", "enum": ["click", "input", "change"] },
+          "actionType": { "type": "string", "enum": ["navigate", "switchTab", "openDetail", "filter", "sort"] },
+          "destinationRoute": { "type": "string" },
+          "payload": { "type": "object" }
+        }
+      }
+    },
+    "dataPlaceholders": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "description"],
+        "properties": {
+          "id": { "type": "string" },
+          "description": { "type": "string" },
+          "screenId": { "type": "string" },
+          "defaultData": { "type": "array" }
+        }
+      }
+    }
+  }
+}

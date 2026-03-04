@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Document base (left side) - transforms into screens -->
+  <g id="document">
+    <!-- Document sheet -->
+    <rect x="48" y="64" width="180" height="240" rx="16" fill="currentColor" fill-opacity="0.15" stroke="currentColor" stroke-width="12"/>
+    <!-- Document lines (text representation) -->
+    <rect x="80" y="104" width="116" height="12" rx="6" fill="currentColor" fill-opacity="0.4"/>
+    <rect x="80" y="136" width="100" height="12" rx="6" fill="currentColor" fill-opacity="0.4"/>
+    <rect x="80" y="168" width="116" height="12" rx="6" fill="currentColor" fill-opacity="0.4"/>
+    <rect x="80" y="200" width="80" height="12" rx="6" fill="currentColor" fill-opacity="0.4"/>
+  </g>
+  
+  <!-- Screen tiles (right side) - the output -->
+  <g id="screens">
+    <!-- Screen tile 1 (top) -->
+    <rect x="284" y="64" width="180" height="110" rx="12" fill="#1DB954" stroke="#1DB954" stroke-width="4"/>
+    <!-- Screen header bar -->
+    <rect x="296" y="76" width="156" height="8" rx="4" fill="white" fill-opacity="0.3"/>
+    <!-- Screen content blocks -->
+    <rect x="296" y="96" width="72" height="56" rx="6" fill="white" fill-opacity="0.5"/>
+    <rect x="380" y="96" width="72" height="24" rx="6" fill="white" fill-opacity="0.3"/>
+    <rect x="380" y="128" width="72" height="24" rx="6" fill="white" fill-opacity="0.3"/>
+    
+    <!-- Screen tile 2 (bottom) -->
+    <rect x="284" y="194" width="180" height="110" rx="12" fill="#1DB954" stroke="#1DB954" stroke-width="4"/>
+    <!-- Screen header bar -->
+    <rect x="296" y="206" width="156" height="8" rx="4" fill="white" fill-opacity="0.3"/>
+    <!-- Screen content - different layout -->
+    <rect x="296" y="226" width="156" height="32" rx="6" fill="white" fill-opacity="0.5"/>
+    <rect x="296" y="266" width="72" height="24" rx="6" fill="white" fill-opacity="0.3"/>
+    <rect x="380" y="266" width="72" height="24" rx="6" fill="white" fill-opacity="0.3"/>
+  </g>
+  
+  <!-- Lightning bolt - speed/transformation cue -->
+  <g id="lightning">
+    <path d="M272 180 L232 260 L256 260 L240 340 L312 240 L280 240 L304 180 Z" 
+          fill="#1DB954" 
+          stroke="currentColor" 
+          stroke-width="8"
+          stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Motion lines (speed indicator) -->
+  <g id="motion" stroke="#1DB954" stroke-width="6" stroke-linecap="round" opacity="0.6">
+    <line x1="172" y1="380" x2="220" y2="380"/>
+    <line x1="188" y1="404" x2="252" y2="404"/>
+    <line x1="156" y1="428" x2="236" y2="428"/>
+  </g>
+</svg>
+

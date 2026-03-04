@@ -1,0 +1,41 @@
+{
+  "name": "rapidly",
+  "version": "1.0.0",
+  "description": "Turn PRDs into visual prototypes in minutes",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "11.14.0",
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.1",
+    "@mui/icons-material": "7.3.5",
+    "@mui/material": "7.3.5",
+    "@mui/material-nextjs": "7.3.5",
+    "ajv": "^8.18.0",
+    "framer-motion": "12.23.24",
+    "jszip": "^3.10.1",
+    "mermaid": "^11.12.2",
+    "next": "15.5.10",
+    "openai": "5.23.2",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-markdown": "10.1.0",
+    "remark-gfm": "4.0.1",
+    "zustand": "^5.0.10"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.0",
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "typescript": "5.8.3",
+    "vitest": "3.1.1"
+  }
+}
